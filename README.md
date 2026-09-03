@@ -4,7 +4,7 @@ A Webots-based autonomous mobile robot project developed in C for the Pioneer 3D
 
 ## Overview
 
-This project was completed as part of a university coursework. The goal was to develop a C-based Webots controller for a Pioneer 3DX mobile robot operating inside a simulated arena with coloured balls and coloured goal zones.
+This project was completed as part of a university coursework in a team of two. The goal was to develop a C-based Webots controller for a Pioneer 3DX mobile robot operating inside a simulated arena with coloured balls and coloured goal zones.
 
 The robot uses camera-based RGB colour detection to identify green and blue balls, estimate the target ball position, and guide its movement. The controller uses a finite state machine to manage searching, moving, pushing, preparing for the next target, and stopping once the sorting process is complete.
 
@@ -56,11 +56,11 @@ The controller uses a finite state machine to manage robot behaviour:
 ## My Contribution
 
 - Programmed the robot controller in C.
-- Implemented RGB thresholding for green and blue ball detection.
+- Implemented RGB thresholding for green and blue ball detection with team.
 - Used camera image data to calculate ball centroid position.
 - Developed finite state machine logic for searching, moving, pushing, preparation, and completion states.
-- Implemented camera-guided steering based on the target ball's position in the image frame.
-- Tested and adjusted movement behaviour across multiple simulation runs.
+- Implemented camera-guided steering based on the target ball's position in the image frame with team.
+- Tested and adjusted movement behaviour across multiple simulation runs with team.
 
 ## Project Media
 
