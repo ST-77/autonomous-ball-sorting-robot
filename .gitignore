@@ -1,0 +1,20 @@
+# Compiled C/C++ files
+*.o
+*.out
+*.exe
+*.obj
+
+# Build folders
+build/
+bin/
+obj/
+
+# Webots temporary/cache files
+*.wbproj
+*.wbt.bak
+*.wbproj.bak
+*.log
+
+# OS/system files
+.DS_Store
+Thumbs.db
